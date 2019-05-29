@@ -1,18 +1,18 @@
-Fitter Status : Successful - Wed May 29 20:59:52 2019
+Fitter Status : Successful - Wed May 29 21:18:29 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : stx_4_1ch
 Top-level Entity Name : XCVR_TOP
 Family : Arria II GX
 Device : EP2AGX95EF29I3
 Timing Models : Final
-Logic utilization : 11 %
-    Combinational ALUTs : 2,648 / 74,940 ( 4 % )
+Logic utilization : 4 %
+    Combinational ALUTs : 1,719 / 74,940 ( 2 % )
     Memory ALUTs : 0 / 37,470 ( 0 % )
-    Dedicated logic registers : 7,725 / 74,940 ( 10 % )
-Total registers : 7725
+    Dedicated logic registers : 2,693 / 74,940 ( 4 % )
+Total registers : 2693
 Total pins : 72 / 432 ( 17 % )
 Total virtual pins : 0
-Total block memory bits : 446,464 / 5,640,192 ( 8 % )
+Total block memory bits : 77,824 / 5,640,192 ( 1 % )
 DSP block 18-bit elements : 0 / 448 ( 0 % )
 Total GXB Receiver Channel PCS : 1 / 12 ( 8 % )
 Total GXB Receiver Channel PMA : 1 / 12 ( 8 % )
