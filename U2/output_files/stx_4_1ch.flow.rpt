@@ -1,0 +1,223 @@
+Flow report for stx_4_1ch
+Wed May 29 20:59:56 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++-----------------------------------+-------------------------------------------------+
+; Flow Status                       ; Successful - Wed May 29 20:59:56 2019           ;
+; Quartus Prime Version             ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
+; Revision Name                     ; stx_4_1ch                                       ;
+; Top-level Entity Name             ; XCVR_TOP                                        ;
+; Family                            ; Arria II GX                                     ;
+; Device                            ; EP2AGX95EF29I3                                  ;
+; Timing Models                     ; Final                                           ;
+; Logic utilization                 ; 4 %                                             ;
+;     Combinational ALUTs           ; 1,732 / 74,940 ( 2 % )                          ;
+;     Memory ALUTs                  ; 0 / 37,470 ( 0 % )                              ;
+;     Dedicated logic registers     ; 2,801 / 74,940 ( 4 % )                          ;
+; Total registers                   ; 2801                                            ;
+; Total pins                        ; 72 / 432 ( 17 % )                               ;
+; Total virtual pins                ; 0                                               ;
+; Total block memory bits           ; 87,040 / 5,640,192 ( 2 % )                      ;
+; DSP block 18-bit elements         ; 0 / 448 ( 0 % )                                 ;
+; Total GXB Receiver Channel PCS    ; 1 / 12 ( 8 % )                                  ;
+; Total GXB Receiver Channel PMA    ; 1 / 12 ( 8 % )                                  ;
+; Total GXB Transmitter Channel PCS ; 1 / 12 ( 8 % )                                  ;
+; Total GXB Transmitter Channel PMA ; 1 / 12 ( 8 % )                                  ;
+; Total PLLs                        ; 0 / 6 ( 0 % )                                   ;
+; Total DLLs                        ; 0 / 2 ( 0 % )                                   ;
++-----------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/29/2019 20:58:01 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; stx_4_1ch           ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                              ;
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                                                                                                                                                    ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 106258777109550.155913468117556                                                                                                                                                          ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                                                                                                                                                                     ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                                                                                                                                                                   ; <None>        ; --          ; --             ;
+; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                                       ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 100                                                                                                                                                                                      ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; -40                                                                                                                                                                                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; ../src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.cmp                                                                                                                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; ../src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.cmp                                                                                                                                    ; --            ; --          ; --             ;
+; MISC_FILE                           ; ../src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.ppf                                                                                                                                    ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                                                                                                                                                   ; --            ; XCVR_top    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                                                                                                                                                   ; --            ; XCVR_top    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                                                                                                                                                   ; --            ; XCVR_top    ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                                                                                                                      ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                                                    ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                                                                                                                             ; --            ; --          ; --             ;
+; SLD_FILE                            ; db/stp1_auto_stripped.stp                                                                                                                                                                ; --            ; --          ; --             ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                                      ; --            ; --          ; TX             ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                                      ; --            ; --          ; RX             ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                                      ; --            ; --          ; init           ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                            ; --            ; --          ; TX             ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                            ; --            ; --          ; RX             ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                            ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                  ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                                                                                                                                                                  ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                   ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                            ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=1024                                                                                                                                                                    ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                               ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                           ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                                                        ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                   ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                             ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                      ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=1024                                                                                                                                                                    ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                 ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                                                                                                                                                       ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                     ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                             ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                            ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=30                                                                                                                                                                         ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=30                                                                                                                                                                      ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=30                                                                                                                                                            ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000                                                    ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=114                                                                                                                                                            ; --            ; --          ; TX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                  ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334529                                                                                                                                                                  ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                   ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                            ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=1024                                                                                                                                                                    ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                               ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                           ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                                                        ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                   ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                             ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                      ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=1024                                                                                                                                                                    ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                 ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                                                                                                                                                       ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                     ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                             ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                            ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=47                                                                                                                                                                         ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=47                                                                                                                                                                      ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=47                                                                                                                                                            ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=165                                                                                                                                                            ; --            ; --          ; RX             ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                  ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=8                                                                                                                                                                          ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=8                                                                                                                                                                       ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=8                                                                                                                                                             ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334530                                                                                                                                                                  ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                   ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000                                                                                                                      ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=48                                                                                                                                                             ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                            ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=1024                                                                                                                                                                    ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                               ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                           ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                                                        ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                   ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                             ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                      ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=1024                                                                                                                                                                    ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                 ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                                                                                                                                                       ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                                                                                                                                                                   ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                     ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                             ; --            ; --          ; init           ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                            ; --            ; --          ; init           ;
+; TOP_LEVEL_ENTITY                    ; XCVR_top                                                                                                                                                                                 ; stx_4_1ch     ; --          ; --             ;
+; USE_SIGNALTAP_FILE                  ; stp1.stp                                                                                                                                                                                 ; --            ; --          ; --             ;
++-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:54     ; 1.0                     ; 1185 MB             ; 00:01:43                           ;
+; Fitter               ; 00:00:33     ; 1.1                     ; 2010 MB             ; 00:00:41                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 993 MB              ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 1059 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:09     ; 1.0                     ; 1184 MB             ; 00:00:10                           ;
+; Total                ; 00:01:47     ; --                      ; --                  ; 00:02:45                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; B1409deweiPC     ; Arch Linux ; Arch Linux ; x86_64         ;
+; Fitter               ; B1409deweiPC     ; Arch Linux ; Arch Linux ; x86_64         ;
+; Assembler            ; B1409deweiPC     ; Arch Linux ; Arch Linux ; x86_64         ;
+; Timing Analyzer      ; B1409deweiPC     ; Arch Linux ; Arch Linux ; x86_64         ;
+; EDA Netlist Writer   ; B1409deweiPC     ; Arch Linux ; Arch Linux ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off arr_2_4ch_U2 -c stx_4_1ch
+quartus_fit --read_settings_files=off --write_settings_files=off arr_2_4ch_U2 -c stx_4_1ch
+quartus_asm --read_settings_files=off --write_settings_files=off arr_2_4ch_U2 -c stx_4_1ch
+quartus_sta arr_2_4ch_U2 -c stx_4_1ch
+quartus_eda --read_settings_files=off --write_settings_files=off arr_2_4ch_U2 -c stx_4_1ch
+
+
+

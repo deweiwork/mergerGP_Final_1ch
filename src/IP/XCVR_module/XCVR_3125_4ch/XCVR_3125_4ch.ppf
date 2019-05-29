@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pinplan>
+<pinplan intended_family="Arria II GX" variation_name="XCVR_3125_4ch" megafunction_name="ALTGX" specifies="all_ports">
+<global>
+<pin name="cal_blk_clk" direction="input" scope="external"  />
+<pin name="pll_inclk" direction="input" scope="external"  />
+<pin name="reconfig_clk" direction="input" scope="external"  />
+<pin name="reconfig_togxb[3..0]" direction="input" scope="external"  />
+<pin name="rx_coreclk[0..0]" direction="input" scope="external"  />
+<pin name="rx_cruclk[0..0]" direction="input" scope="external"  />
+<pin name="rx_datain[0..0]" direction="input" scope="external"  />
+<pin name="rx_digitalreset[0..0]" direction="input" scope="external"  />
+<pin name="rx_enapatternalign[0..0]" direction="input" scope="external"  />
+<pin name="rx_seriallpbken[0..0]" direction="input" scope="external"  />
+<pin name="tx_coreclk[0..0]" direction="input" scope="external"  />
+<pin name="tx_datain[19..0]" direction="input" scope="external"  />
+<pin name="tx_digitalreset[0..0]" direction="input" scope="external"  />
+<pin name="coreclkout[0..0]" direction="output" scope="external"  />
+<pin name="pll_locked[0..0]" direction="output" scope="external"  />
+<pin name="reconfig_fromgxb[16..0]" direction="output" scope="external"  />
+<pin name="rx_clkout[0..0]" direction="output" scope="external"  />
+<pin name="rx_dataout[19..0]" direction="output" scope="external"  />
+<pin name="rx_freqlocked[0..0]" direction="output" scope="external"  />
+<pin name="rx_patterndetect[1..0]" direction="output" scope="external"  />
+<pin name="rx_syncstatus[1..0]" direction="output" scope="external"  />
+<pin name="tx_clkout[0..0]" direction="output" scope="external"  />
+<pin name="tx_dataout[0..0]" direction="output" scope="external"  />
+
+</global>
+</pinplan>
